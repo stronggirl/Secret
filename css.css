@@ -1,0 +1,209 @@
+@charset "utf-8";
+/* CSS Document */
+
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	font-size: 10pt;
+	background:url(../images/top-background.gif) #FCF191;
+	background-repeat:repeat-x;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.container{
+	margin: auto 9%;
+}
+.header{
+	text-align: center;
+}
+.header h1{
+	color:#F26521;
+	text-shadow:2pt 2pt 5pt black;
+}
+.header p{
+	font-size: 1.2em;
+}
+.menu #orange{
+	display:block;
+	background-color: white;
+	border:double #FFBC53;
+	position : relative;
+	height: 25px;
+	float:left;
+	width:99.9%}
+
+.menu #orange ul{
+	margin:2;
+	padding:0;
+	list-style-type:none;
+	width:auto}	
+.menu #orange ul li{
+	display:block;
+	float:left;
+	/*margin: 0 1px 0 0;*/
+	height:106px;
+	width:181px;
+	}
+#orange ul li:hover ul, #orange ul a:hover ul{visibility:visible}
+#orange li a{
+	display:block;
+	border:1px #F26521 solid;
+	border-radius:5px;
+	background:#FCF191;
+	padding-left:10px;
+	list-style:none;}
+
+#orange li.active a{
+	color:#FFF;
+	font-weight:bold;
+	background:#F26521;
+}
+#orange li{
+	list-style:none;
+	}
+#orange ul ul{visibility:hidden;
+width:149px;
+height:15px;
+}
+.aside{
+	float:right;
+	background-color:white;
+	width:18%;
+	border: double #FFBC53;
+	height:706px;
+}
+.aside1{
+	float:left;
+	background-color:white;
+	width:17.3%;
+	border: double #FFBC53;
+	height:706px;
+}
+#nav{
+	line-height: 2em;
+	border-bottom:double #FFBC53;
+	padding:1em;
+	padding-top:0;
+}
+
+#sub li{
+	float:none
+	}
+#sub ul ul{visibility:hidden;
+width:149px;
+}
+
+#sub ul li:hover ul, #sub ul a:hover ul{visibility:visible}
+#sub li a{
+	display:block;
+	border:1px #F26521 solid;
+	border-radius:5px;
+	background:#FCF191;
+	padding-left:10px;
+	list-style:none;}
+
+#sub li a:visited{
+	color:#FFF;
+	font-weight:bold;
+	background:#FC6;
+	text-decoration:none
+}
+#nav li{
+	list-style:none;
+	margin:5px auto;
+}
+#nav li a{
+	display:block;
+	border:1px #F26521 solid;
+	border-radius:5px;
+	background:#FCF191;
+	padding-left:10px;
+}
+#nav li.active a{
+	color:#FFF;
+	font-weight:bold;
+	background:#F26521;
+	text-decoration:none;
+}
+#nav ul li:hover ul, #nav ul a:hover ul{}
+a:hover{
+	color:#F26521;
+	font-size:larger;
+}
+.iklan{
+	text-align:center;
+	padding-top:0em;
+	font-size:15;
+	text-transform:capitalize;
+	text-shadow:1px 1px 10pt #F26521;
+}
+.products{
+	float:right;
+	background-color: #FFF;
+	line-height: 2em;
+	border: double #FFBC53;
+	padding: 2em;
+	width:58%;
+	height:654px;
+}
+.harga{
+	text-align:center;
+	font: 20px #00C 
+	bold}
+#gambar{
+	width:150;
+	height:auto;
+	text-align:center;
+	}
+#gambar img{
+	display: block; 
+	margin-left: auto; 
+	margin-right: auto; 
+	}
+.products h2{
+	font-size: 1.2em;
+	color: #921A66;
+	margin-top: 3em;
+	border-left: 3px solid;
+	border-top: 1px solid;
+	padding-left: 1em;
+}
+.products h2#first{
+	margin-top: 0;
+}
+a{
+	text-decoration: none;	
+}
+em{
+	color: #F26521;
+}  
+.footer{
+	color: #663333; 
+	font-size: 10px;
+	text-align: center;
+	clear:both;
+}
+img#awesome, img#produk{
+	float:left;
+}
+#kalender{
+	border-bottom: double #FFBC53;
+	padding-bottom:10px;
+	padding-top:10px;
+}
+#kalender table{
+	margin:0 auto;
+	font-size:smaller;
+}
+#kalender caption {
+	font-size: larger;
+	font-weight: bold;
+}
+#kalender td {
+	padding: 0;
+	border: 1px solid black;
+	background: #5B5D4E;
+	color: #FCF191;
+	text-align: center;
+	width:25px;
+}
